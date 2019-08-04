@@ -29,3 +29,6 @@ gradlew*
 
 # Exclude maven wrapper
 !/.mvn/wrapper/maven-wrapper.jar
+
+# Exclude compiled cloudformation
+.serverless
