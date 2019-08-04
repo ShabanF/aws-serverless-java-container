@@ -23,8 +23,5 @@ functions:
     handler: com.amazonaws.serverless.sample.springboot.StreamLambdaHandler::handleRequest
     events:
       - http:
-          path: / # this matches the base path
-          method: ANY
-      - http:
           path: /{proxy+}
           method: ANY
